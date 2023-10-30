@@ -1,0 +1,292 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin:0%;
+  padding:0%;
+}
+.imageUploadIcon{
+  top: 50%;
+    right: 12%;
+    background-color: white;
+    border: none;
+    background: transparent;
+}
+.sort{
+  width: auto;
+  font-size: 1ren;
+  left: 59.2%;
+  top: 26%;
+  z-index: 30;
+
+}
+.alt{
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLlQ9DL2jP_heI_mtZXdw8cxNdGunsejk7FQ&usqp=CAU');
+}
+.uploadImg{
+  position: fixed;
+    border-radius: 50%;
+    height: 32%;
+    right: 10%;
+    width: 15%;
+    top: 23%;
+    z-index: 10;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.Box1 {
+  display: inline-block;
+    left: 86.5%;
+    width: 11.5%;
+    height: 6rem;
+    top: 26.2%;
+}
+
+
+.Box2 {
+  position: fixed;
+  display: inline-block;
+  left: 87.6%;
+  width: 10.6%;
+  top: 26.4%;
+  height: 6rem;
+  z-index: 10;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.EasyWashFirst{
+  font-size: revert;
+    font-weight: 900;
+    color:#194376;
+}
+.EasyWashSecond{
+  color:#46C6CE;
+}
+.App-link {
+  color: #61dafb;
+}
+.play{
+  font-size: 5rem;
+    color: red;
+    background-color: white;
+    background: transparent;
+}
+.check{
+  /* float: left; */
+  width:  100%;
+  height: 50%;
+  /* background-size: cover; */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* DropDown */
+.dropbtn {
+  background-color: #4CAF50;
+  transition: 0.3s;
+  color: white;
+  padding: 16px;
+  padding-right: 32px;
+  font-size: 16px;
+  border: none;
+  cursor: crosshair;
+  border-radius: 2px;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  transition: all 1s ease-in;
+  overflow:hidden;
+  height:0;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  color:  #000000;
+
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  height:200px;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+  color:  #000000;
+  transition: 0.3s;
+}
+
+.dropdown1 {
+  position: fixed;
+  top: 150px;
+  left: 50px;
+
+}
+
+.dropdown2 {
+  position: fixed;
+  top: 150px;
+  left: 220px;
+
+}
+
+.dropdown3 {
+  position: fixed;
+  top: 150px;
+  left: 615px;
+
+}
+
+.dropdown4 {
+  position: fixed;
+  top: 150px;
+  left: 1003px;
+
+}
+
+.pageheading {
+  font-family: verdana;
+  font-size: 85% ;
+  position: absolute;
+  left: 50px;
+  top: 210px;
+  background-color: #4CAF50;
+  border-radius: 6px;
+}
+
+.pageparagraph {
+  font-family: verdana;
+  text-align: justify;
+  position: absolute;
+  left: 50px;
+  top: 290px;
+  right: 685px;
+  background-color: #4CAF50;
+  border-radius: 6px;
+}
+
+.logo {
+  font-family: verdana;
+  font-size: 150%;
+  color: white;
+  position: fixed;
+  top: 10px;
+  left: 50px;
+  background-color: #4CAF50;
+  border-radius: 6px;
+}
+
+body {
+  /* background-image: url("ForestBackground.jpg"); */
+  background-repeat: no-repeat;
+}
+
+
+.arrow1 {
+  position: fixed;
+  top: 166px;
+  left: 185;
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
+
+.arrow2 {
+  position: fixed;
+  top: 166px;
+  left: 580;
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
+
+.arrow3 {
+  position: fixed;
+  top: 166px;
+  left: 970;
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
+
+.arrow4 {
+  position: fixed;
+  top: 166px;
+  left: 1130;
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
+
+
+.dropdown:hover .arrow1{
+transform: rotate(90deg);
+transition: 0.3s;
+}
+
+.dropdown:hover .arrow2{
+transform: rotate(90deg);
+transition: 0.3s;
+}
+
+.dropdown:hover .arrow3{
+transform: rotate(90deg);
+transition: 0.3s;
+}
+
+.dropdown:hover .arrow4{
+transform: rotate(90deg);
+transition: 0.3s;
+}
+.addtobag:hover{
+  background-color: white;
+  color:#194376
+}
+.setImage{
+  border-radius: 55%;
+    /* width: 50%; */
+    transition: 8%;
+    padding: 1rem;
+    border: solid;
+    /* border-color: setFile(URL.createObjectURL(e.target.files[0])); */
+    border-color: #194376;
+}
