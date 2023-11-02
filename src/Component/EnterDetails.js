@@ -36,13 +36,13 @@ const saveOrderInDB= async()=>{
     document.getElementById("COD").classList.remove("bg-drymeBlue");
     document.getElementById("COD").classList.add("bg-black");
 //   console.log("Save");
-    let common=new Date();
-    let date=common.getDate()+"-"+common.getMonth()+"-"+common.getFullYear();
-    // console.log("date ",date);
-    let time=common.getHours()+":"+common.getMinutes()+":"+common.getSeconds();
-    let Id=common.getFullYear()+common.getMonth()+common.getDate()+""+common.getHours()+common.getMinutes()+common.getSeconds()+"";
-    console.log("id "+Id);
-    let userEmailId=localStorage.getItem("email");
+let common=new Date();
+let date=common.getDate()+"-"+(common.getMonth()+1)+"-"+common.getFullYear();
+// console.log("date ",date);
+let time=common.getHours()+":"+common.getMinutes()+":"+common.getSeconds();
+let Id=common.getFullYear()+common.getMonth()+common.getDate()+""+common.getHours()+common.getMinutes()+common.getSeconds()+"";
+// console.log("id "+Id);
+let userEmailId=localStorage.getItem("email");
     // console.log("name ",name);
     // console.log("email",address);
     // console.log("phone ",cell)
